@@ -1,0 +1,719 @@
+html,body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #000 !important;
+    margin: 0px;
+    color: white !important;
+}
+section{
+    overflow: hidden;
+}
+.container-fluid{
+    padding: 0px 3.5rem;
+}
+.navbar{
+    padding: 1.25rem !important;
+}
+.navbar-collapse{
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-nav{
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: white !important;
+   width: 80%;
+   justify-content: space-between;
+}
+.nav-item.active a{
+    color: #F17720 !important;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item.active::after{
+    background: #F17720;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    bottom: 5px;
+    transform: translate(50%, 0px);
+    right: 50%;
+}
+.nav-detail{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.nav-right-side{
+    display: flex;
+    gap: 1.25rem;
+}
+.get-started{
+    position: relative;
+    margin-top:6.25rem;
+}
+.get-ntf{
+    position: relative;
+}
+.ntf-title{
+    font-weight: 600;
+    font-size:5.3125rem;
+    line-height:5.3125rem;
+}
+.ntf-sub{
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    /* margin-top:2.1875rem; */
+    margin:2.1875rem 0px;
+    width: 83%;
+    color: #DCD8CC;
+}
+.ntf-row{
+    align-items: center;
+}
+.ntf-btn-wrapper{
+    display: flex;
+}
+.btn-mint{
+    background: #F17720;
+    box-shadow: 0px 0.25rem 0.25rem #040404;
+    border-radius:0.625rem;
+    padding: 1.125rem 4.375rem;
+    font-weight: 500;
+    font-size: 1.25rem ;
+    line-height: 1.5rem;
+    color: black;
+    margin-right: 1.25rem;
+    padding: 1.3rem 5rem !important;
+    outline: 0px;
+    border: 0px;
+    font-weight: 500 !important;
+    font-size: 1.25rem !important;
+    line-height: 1.5rem;
+    color: #0F121D !important;
+    border-radius:0.625rem !important;
+}
+.btn-more{
+    box-shadow: 0px 0.25rem 0.25rem #040404;
+    border-radius:0.625rem;
+    padding: 1.125rem 4.375rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: black;
+    background: white;
+    padding: 1.3rem 5rem !important;
+    outline: 0px;
+    border: 0px;
+    font-weight: 500 !important;
+    font-size: 1.25rem !important;
+    line-height: 1.5rem;
+    color: #0F121D !important;
+    border-radius:0.625rem !important;
+}
+.btn-connect{
+    background: #DAD7CC;
+    border-radius:0.3125rem;
+    color: #0F121D;
+    /* font-size: 0.875rem; */
+    font-size: 1.125rem;
+    line-height: 0.75rem;
+    padding: 1rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.625rem;
+
+}
+.first-ellipse{
+    position: absolute;
+}
+.second-ellipse{
+    position: absolute;
+    right: 0px;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    /* bottom: 0px; */
+    top: 30%;
+    transform: scale(-1, -1);
+}
+.third-ellipse{
+    position: absolute;
+    right: left;
+    left: 0px;
+    top: -77%;
+}
+.forth-ellipse{
+    position: absolute;
+    right: 0px;
+    top: -95%;
+}
+.fifth-ellipse{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+.sixth-ellipse{
+    position: absolute;
+    left: 0px;
+    top: -68%;
+}
+.ellipse{
+    top: -65%;
+    position: absolute;
+    /* top: 30%; */
+    right: 1.625rem;
+  
+}
+
+.metaverse{
+    margin-top:6.25rem;
+    position: relative;
+}
+.metaverse .ntf-title{
+    text-align: center;
+}
+.metaverse-sub{
+    font-weight: 600;
+    font-size: 3.125rem;
+    line-height:3.6875rem;
+}
+.metaverse-sub span{
+    color: #F17720;
+}
+
+
+.metaverse-ipsum{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.ipsum-1,.ipsum-2,.ipsum-3,.ipsum-4,.ipsum-5{
+    background: transparent;
+    border-radius:0.625rem;
+}
+.ipsum-title1,.ipsum-title2,.ipsum-title3,.ipsum-title4,.ipsum-title5{
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom:0.3125rem;
+}
+.ipsum-detail1,.ipsum-detail2,.ipsum-detail3,.ipsum-detail4,.ipsum-detail5{
+    
+}
+.ipsum-active{
+    background: #1B1D2C;
+    border-radius:0.625rem;
+    padding: 1.25rem;  
+}
+
+.ipsum-detail1{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #DCD8CC;
+ 
+}
+.metaverse-row{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.about .ntf-sub{
+    width: 100%;
+}
+.about{
+    margin-top:150px;
+    position: relative;
+}
+.dragon{
+    border: 0px;
+    background: transparent;
+}
+.dragon .card-body{
+    background: #1B1D2C;
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius:0.625rem;
+    border: 0px;
+}
+.dragon-id{
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    color: #E5E5E5;
+}
+.start-now{
+    position: relative;
+    margin-top:6.25rem;
+}
+.start-now .ntf-sub{
+    width: 67%;
+    
+}
+.start-now .card-body img{
+    height: 18rem;
+}
+.eighth-ellipse{
+    position: absolute;
+    top: -18%;
+    left: 0px;
+}
+.dragon-title{
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom:0.5rem;
+}
+.dragon .card{
+    background: transparent;
+}
+
+.dragon-btn{
+    display: flex;
+    background: #0474BA;
+    border-radius:0.125rem;
+    width: fit-content;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    padding:0.1875rem 0.3125rem;
+    gap:0.375rem;
+    text-align: center;
+    padding-left:0.625rem;
+    align-items: center;
+
+    
+}
+.start-now .metaverse-sub{
+    margin-top: 2rem;
+}
+.orange{
+    background: #F17720;
+}
+.purple{
+    background: #7742EE;
+}
+.green{
+    background: #0ADB90;
+}
+.btn-no{
+    background: #1B1D2C;
+    background: #1B1D2C;
+    border-radius:0.125rem;
+    padding:0.1875rem 0.25rem;
+    /* position: absolute; */
+    /* top:0.25rem; */
+    /* right:0.3125rem; */
+    font-size:0.625rem;
+    margin-right: -2px;
+}
+.pricing{
+    margin-top:6.25rem;
+    position: relative;
+    z-index: 3;
+}
+.pricing .metaverse-sub{
+    text-align: center;
+    margin:2.1875rem 0px;
+
+}
+.pricing-sub{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.pricing .card{
+    background: #1B1D2C;
+    border:0.1875rem solid #F17720;
+    box-sizing: border-box;
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius: 1.25rem;
+}
+.pricing-rate-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 1.875rem 0px;
+}
+.price-rate{
+    font-size:8.125rem;
+    line-height: 9.6281rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.price-eth{
+    font-size: 1.125rem;
+    line-height: 1.333125rem;
+    font-style: italic;
+    font-weight: 500;
+
+}
+.pricing-card-sub{
+    margin: auto;
+    text-align: center;
+}
+.pricing-count-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1.25rem;
+    margin-top: 1.875rem;
+}
+.count-decrease{
+    width:3.875rem;
+    height:3.875rem;
+    left:8.25rem;
+    /* top: 5913px; */
+    background: #0D0F1E;
+    border-radius: 1.9375rem;
+    text-align: center;
+    line-height:3.875rem;
+    cursor: pointer;
+}
+.count{
+    font-weight: 300;
+    font-size:8.125rem;
+    line-height:9.625rem;
+    text-align: center;
+}
+.pricing-total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+.pricing-mint{
+    margin-top:2.8125rem;
+    /* margin: auto; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:2.1875rem;
+}
+
+.pricing{
+    position: relative;
+}
+.epic{
+    position: relative;
+}
+.epic img{
+    position: absolute;
+    /* top: -8.75rem; */
+    transform: translate(50%, 0%);
+    right: 50%;
+    bottom: 100%;
+}
+.pricing .row{
+    margin-top: 11.25rem;
+}
+
+.btn-top-price{
+    
+    background: #1B1D2C;
+    border:0.1875rem solid #F17720;
+    box-sizing: border-box;
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius: 39.5px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.9375rem 2.5rem;
+    width: fit-content;
+    position: absolute;
+    top: -1.875rem;
+    right: 50%;
+    transform: translate(50%, 0px);
+}
+.contract{
+    position: relative;
+    z-index: 2;
+   margin-top:6.25rem;
+}
+.ninth-ellipse{
+    right: 0;
+    position: absolute;
+    top: -83%;
+}
+.seventh-ellipse{
+    
+    position: absolute;
+    top: -74%;
+    right:0.625rem;
+
+}
+.border-blue{
+    border-color:  #0474BA !important;
+}
+.border-purple{
+    border-color: #7742EE !important;
+}
+
+.contract-wrapper .card{
+    background: #1B1D2C;
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius:0.625rem;
+    margin-bottom: 1.25rem;
+}
+.contact-wrapper .card-title{
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    margin-bottom:0.625rem;
+}
+.contract-para{
+    font-weight: 300;
+font-size: 1rem;
+line-height: 1.1875rem;
+
+color: #DCD8CC;
+}
+.contract .metaverse-sub{
+    margin:2.5rem 0px;
+}
+
+.follow{
+    margin-top:6.25rem;
+    position: relative;
+}
+.eleven-ellipse{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    bottom: -40%;
+}
+.tenth-ellipse{
+    position: absolute;
+    left: 0px;
+    top: -47%;
+}
+.follow .metaverse-sub{
+    margin-top: 1.5623rem;
+}
+.social-links-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3.125rem;
+}
+.social-link{
+   
+
+    text-align: center;
+    line-height:8.125rem;
+    filter: drop-shadow(-26px 1.25rem 1.875rem #000000);
+}
+.discord-join-wrapper{
+    margin: auto;
+    margin-top:6.25rem;
+    /* background: red; */
+   background-image: url('./images/social-background.png');
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius:0.625rem;
+    padding: 0px2.5rem;
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discord-logo-wrapper{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size:2.1875rem;
+    line-height:2.5625rem;
+    color: #F17720;
+    gap: 0.9375rem;
+}
+.discord-detail{
+    padding:3.4375rem;
+}
+.discord-detail .btn-mint{
+    margin-top:3.125rem;
+}
+.footer{
+    margin-top: 6.25rem;
+    box-shadow: -26px 1.25rem 1.875rem #000000;
+    border-radius: 0.625rem;
+    padding: 3.125rem 4.375rem;
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-header-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size:2.1875rem;
+    line-height:2.5625rem;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1.25rem;
+}
+.footer-sub-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+}
+.footer{
+    background-image: url('./images/footer-back.png');
+}
+.footer-social-media{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap:0.625rem;
+    margin-top: 1.25rem;
+}
+.footer-social-media img{
+    
+}
+
+@media screen  and (max-width:700px){
+    html{
+        font-size: 12px;
+    }
+    body{
+        border: 1px solid red;
+    }
+    .ntf-title{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .ntf-btn-wrapper{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .ntf-btn-wrapper button{
+        width: 100%;
+    }
+    .first-ellipse,.second-ellipse,.third-ellipse,.fifth-ellipse,.sixth-ellipse,.seventh-ellipse,.eighth-ellipse,.forth-ellipse,.ninth-ellipse,.tenth-ellipse,.eleven-ellipse{
+        display: none;
+    }
+    .pricing .col-sm-12{
+        margin-bottom: 7.5rem;
+    }
+    
+    .total-sub{
+        white-space: pre-wrap;
+    }
+   .footer-item{
+    margin: auto;
+    width: fit-content;
+    margin-top: 2rem;
+   }
+
+    .footer-title, .footer-sub-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .footer-header-title{
+        text-align: center;
+    margin: 2rem 0rem;
+}
+.dragon{
+    margin-bottom: 2rem;
+}
+.metaverse-sub{
+    text-align: center;
+}
+.ntf-sub{
+    text-align: center;
+    width: 100% !important;
+}
+.get-started .col-sm-12 img{
+    margin-bottom: 2rem;
+}
+.about .btn-mint{
+    margin: auto;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 2rem;
+}
+.metaverse-ipsum{
+    text-align: center;
+}
+
+.ipsum-detail1,.ipsum-detail2,.ipsum-detail3,.ipsum-detail4,.ipsum-detail5{
+    text-align: left;
+}
+.metaverse-row .metaverse-sub{
+margin-top: 2rem;
+}
+.ntf-row .ntf-sub{
+    text-align: left;
+}
+.ntf-row{
+    margin-top: 2rem;
+}
+.ntf-nav{
+    padding: 0px;
+}
+.nav-detail{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+}
+
+@media screen and (max-width:992px) {
+  html{
+    font-size: 14px;
+  } 
+  .purple-card{
+      margin-top: 95px;
+  }
+}
+
+@media screen and (max-width:769px) {
+    html{
+      font-size: 14px;
+    } 
+  .blue-card,.purple-card{
+      margin-top: 9rem;
+  }
+  .dragon{
+      margin-bottom: 2rem;
+  }
+  .discord-detail .btn-mint{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  }
